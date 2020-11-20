@@ -7,40 +7,45 @@ body{
     text-align: center;
 }
 
-
 header{
-    opacity: 80%;
     height: 8%;
+    opacity: 80%;
     background:black;
+    border-bottom: 2px solid red;
     width: 100%;
     z-index: 12;
     position: fixed;
 }
 
 .logo{
-    line-height: 40px;;
+    line-height: 40px;
     width: 30%;
     float: left;
 }
 .logo a{
     text-decoration: none;
     font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: white;
     letter-spacing: 4px;
 }
 
 nav{
+    width: 30%;
     float: right;
     line-height: 40px;
 }
 nav a{
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
-    margin: 0 10px;
+    margin: 10px;
     color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #00f0f0;
 }
 
 .banner-area{
@@ -57,15 +62,17 @@ nav a{
     margin-right: 10%;
 }
 .banner-area h2{
+    text-shadow: 2px 2px 5px black;
     font-size: 70px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     color: white;
     border-bottom: 2px solid white;
 }
 .banner-area p{
+    text-shadow: 2px 2px 5px black;
     font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     color: white;
     text-align: right;
@@ -74,11 +81,11 @@ nav a{
 .contant-area{
     width: 100%;
     position: relative;
-    top: 480px;
+    top: 500px;
     background-color: white;
 }
 .contant-area h2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: 4px;
     padding-top: 30px;
     font-size: 40px;
@@ -86,6 +93,6 @@ nav a{
 }
 .contant-area p{
     padding: 2% 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Work Sans', sans-serif;
     line-height: 30px;
 }

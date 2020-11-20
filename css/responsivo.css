@@ -1,5 +1,52 @@
-@media (max-width: 768px ){
-    body{
-        margin: 0;
-        padding: 0;
+@media (max-width: 763px){
+    
+    header{
+        height: 4%;
     }
+    .logo{
+        line-height: 25px;
+        width: 3%;
+    }
+    .logo a{
+        margin-left: 10px;
+        font-size: 8px;;
+    }
+
+    nav{
+        line-height: 24px;
+        float: right;
+        width: 70%;
+    }
+    nav a{
+        font-size: 8px;
+    }
+    
+    .banner-area{
+        width: 100%;
+        height: 140px;
+        top: 4%;
+    }
+    .banner-area h2{
+        text-align: right;
+        font-size: 20px;
+    }
+    .banner-area p{
+        font-size: 10px;
+    }
+
+    .contant-area{
+        top: 180px;
+    }
+    .contant-area h2{
+        padding-top: 0px;
+        margin-left: 10px;
+        text-align: justify;
+        font-size: 15px;
+    }
+    .contant-area p{
+        margin-right: 80px;
+        margin-left: 10px;
+        text-align: justify;
+        font-size: 10px;
+    }
+}
