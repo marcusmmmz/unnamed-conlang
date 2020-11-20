@@ -1,0 +1,23 @@
+@media (max-width: 763px){
+    
+    header{
+        height: 4%;
+    }
+    .logo{
+        line-height: 25px;
+        width: 3%;
+    }
+    .logo a{
+        margin-left: 10px;
+        font-size: 8px;;
+    }
+
+    nav{
+        line-height: 24px;
+        float: right;
+        width: 70%;
+    }
+    nav a{
+        font-size: 8px;
+    }
+}
