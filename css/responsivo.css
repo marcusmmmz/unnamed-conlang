@@ -8,17 +8,18 @@
         width: 3%;
     }
     .logo a{
-        margin-left: 10px;
-        font-size: 8px;;
+        margin-left: 15px;
+        font-size: 10px;;
     }
 
     nav{
         line-height: 24px;
         float: right;
-        width: 70%;
+        width: 60%;
     }
     nav a{
-        font-size: 8px;
+        margin-right: 0px;
+        font-size: 10px;
     }
     
     .banner-area{
