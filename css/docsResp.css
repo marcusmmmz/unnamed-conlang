@@ -1,8 +1,12 @@
 @media (max-width: 952px){
 
+/* area do menu*/
+
+
     label.logo{
-        font-size: 30px;
-        padding-left: 50px;
+        line-height:50px;
+        font-size: 25px;
+        padding: 12px;
     }
 
     nav ul li a{
@@ -55,4 +59,3 @@
         left: 0;
     }
 
-}
