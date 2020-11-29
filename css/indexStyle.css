@@ -70,7 +70,10 @@ a.active,a:hover{
     height: 440px;
     top: 80px;
     background-image: url("../img/officeBanner.jpg");
+    background-position: center left;
+    background-size: cover;
     -webkit-background-size: cover;
+    
 }
 
 .bannertxt{
