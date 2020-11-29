@@ -62,18 +62,18 @@
 
 /*area do banner*/
 
-    .banner-area{;
+    .banner-area{
         top: 50px;
         width: 100%;
-        height: 140;
+        height: 80%;
     }
 
     .bannertxt h2{
-        font-size: 20px;
+        font-size: 60px;
     }
 
     .bannertxt p{
-        font-size: 10px;
+        font-size: 30px;
     }
 
 }
