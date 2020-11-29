@@ -63,34 +63,3 @@ a.active,a:hover{
 #check{
     display: none;
 }
-
-/*area do banner*/
-.banner-area{
-    width:100%;
-    height: 440px;
-    top: 80px;
-    background-image: url("../img/officeBanner.jpg");
-    background-position: center left;
-    background-size: cover;
-    -webkit-background-size: cover;
-    
-}
-
-.bannertxt{
-    float: right;
-    margin-top: 10%;
-    margin-right: 10%;
-}
-
-.bannertxt h2{
-    color: white;
-    font-size: 70px;
-    text-align: right;
-    border-bottom: 2px solid white;
-}
-
-.bannertxt p{
-    color: white;
-    font-size: 40px;
-    text-align: right;
-}
